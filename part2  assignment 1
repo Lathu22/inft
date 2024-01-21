@@ -1,0 +1,72 @@
+<!--
+	Name: lathurshan
+	File: assignment 1  part 2.html
+	Date: 21 jan 2024
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Set character set to utf-8 -->
+    <meta charset="UTF-8">
+    <!-- Include the provided CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add another link element for additional CSS -->
+    <link rel="stylesheet" href="additional-styles.css">
+</head>
+
+<body>
+
+    <!-- Wrapper for the entire page content -->
+    <div id="page-wrapper">
+
+        <!-- Header section wrapper -->
+        <header id="header-wrapper">
+            <!-- Site title and logo appear side by side -->
+            <div id="site-title">
+                <!-- Main title for the page -->
+                <h1>Main Title</h1>
+                <!-- Site logo -->
+                <img src="logo.png" alt="Site Logo">
+            </div>
+            <!-- Navigation menu appears below title and logo -->
+            <nav id="main-nav">
+                <!-- Navigation links go here -->
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Birds</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main content area wrapper -->
+        <div id="main-content-wrapper">
+
+            <!-- Welcome text block wrapper -->
+            <div id="welcome-text">
+                <p>Welcome to our Bird Watching Website! Explore the fascinating world of birds and enjoy our beautiful images.</p>
+            </div>
+
+            <!-- Image sidebar wrapper -->
+            <aside id="image-sidebar">
+                <!-- Image thumbnails go here -->
+                <img src="thumbnail1.jpg" alt="Bird Thumbnail 1">
+                <img src="thumbnail2.jpg" alt="Bird Thumbnail 2">
+                <!-- Add more thumbnails as needed -->
+            </aside>
+
+        </div>
+
+        <!-- Footer wrapper -->
+        <footer id="footer-wrapper">
+            <!-- Copyright and credits information -->
+            <p>&copy; 2023 Bird Watching Website. All rights reserved. | Designed by Your Name</p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
