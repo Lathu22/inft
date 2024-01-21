@@ -1,0 +1,74 @@
+<!--
+	Name: lathurshan
+	File: assignment 1  part 1.html
+	Date: 21 jan 2024
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Set character set to utf-8 -->
+    <meta charset="UTF-8">
+    <!-- Specify the author of the letter -->
+    <meta name="author" content="Research Fellow">
+    <!-- Include the provided CSS -->
+    <style>
+        /* Provided CSS */
+        /* Insert the provided CSS here */
+    </style>
+</head>
+
+<body>
+
+    <!-- Header section with the main heading of the letter -->
+    <header>
+        <h1>Re: Application for PhD Program</h1>
+    </header>
+
+    <!-- Sender's address section with appropriate markup -->
+    <section class="sender-column">
+        <address>
+            Research Fellow<br>
+            University Name<br>
+            Department of [Department]<br>
+            Address Line 1<br>
+            Address Line 2<br>
+            Tel: <strong>(123) 456-7890</strong><br>
+            Email: <strong>researcher@example.com</strong>
+        </address>
+    </section>
+
+    <!-- Receiver's address section with appropriate markup -->
+    <section>
+        <address>
+            [Prospective Student's Name]<br>
+            Address Line 1<br>
+            Address Line 2<br>
+            Tel: <strong>(987) 654-3210</strong><br>
+            Email: <strong>student@example.com</strong>
+        </address>
+        <!-- Date section with a class for right alignment -->
+        <p class="sender-column">October 15, 20XX</p>
+    </section>
+
+    <!-- Introduction section with appropriate heading and content -->
+    <section>
+        <h2>Introduction</h2>
+        <p>Dear <strong>[Prospective Student's Name]</strong>,</p>
+        <!-- Rest of the letter content -->
+    </section>
+
+    <!-- Footer section with sender's closing and signature -->
+    <footer>
+        <p class="sender-column">Sincerely,</p>
+        <p class="sender-column">[Your Name]</p>
+    </footer>
+
+</body>
+
+</html>
